@@ -1,0 +1,1 @@
+2026-01-03--14:02:47, amount paid: £1000, price per Oz: £1920.00, gold sold: 0.52 Oz 
