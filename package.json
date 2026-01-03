@@ -8,5 +8,9 @@
     "start": "node server.js"
   },
   "author": "Jude Rifai",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "pdfkit": "^0.17.2",
+    "uuid": "^13.0.0"
+  }
 }

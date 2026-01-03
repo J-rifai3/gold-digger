@@ -46,7 +46,6 @@ async function sendPostRequest(valueToInvest, sellingPrice, amount) {
     if (!response.ok) {
         throw new Error(response.text());
     }
-
     const data = await response.text();
     console.log(data)
 
@@ -82,7 +81,7 @@ dialogBtn.addEventListener("click", () => {
 //Price updating handler
 setInterval(function() {
     toggleLivePrice()
-}, 60000)
+}, 6000) //remember to make this 30000
 
 let intervalId = ''
 let livePriceOn = false
