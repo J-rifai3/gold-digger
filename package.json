@@ -1,0 +1,12 @@
+{
+  "name": "gold-digger",
+  "version": "1.0.0",
+  "description": "An investment website, dealing with gold.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Jude Rifai",
+  "license": "ISC"
+}
